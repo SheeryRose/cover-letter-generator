@@ -1,5 +1,5 @@
 const pdfParse = require('pdf-parse');
-const formidable = require('formidable');
+const { formidable } = require('formidable');
 const fs = require('fs');
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
